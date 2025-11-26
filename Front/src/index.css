@@ -1,0 +1,85 @@
+/* ===== BLUE SCROLLBAR STYLES ===== */
+/* Webkit Scrollbar (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+  border-radius: 0px;
+  border-left: 1px solid #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4f8ff0;
+  border-radius: 0px;
+  border: 3px solid #000000;
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2d74d6;
+  border: 2px solid #000000;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #1e5bb3;
+}
+
+::-webkit-scrollbar-corner {
+  background: #000000;
+}
+
+/* Firefox Scrollbar */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #4f8ff0 #000000;
+}
+
+/* ===== SCROLLBAR UTILITY CLASSES ===== */
+.scrollbar-minimal {
+  scrollbar-width: auto;
+  scrollbar-color: #4f8ff0 transparent;
+}
+
+.scrollbar-minimal::-webkit-scrollbar {
+  width: 12px;
+}
+
+.scrollbar-minimal::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-minimal::-webkit-scrollbar-thumb {
+  background: #4f8ff0;
+  border-radius: 0px;
+  border: 2px solid transparent;
+}
+
+.scrollbar-minimal::-webkit-scrollbar-thumb:hover {
+  background: #2d74d6;
+}
+
+.scrollbar-dark {
+  scrollbar-width: auto;
+  scrollbar-color: #3b82f6 #000000;
+}
+
+.scrollbar-dark::-webkit-scrollbar {
+  width: 16px;
+}
+
+.scrollbar-dark::-webkit-scrollbar-track {
+  background: #000000;
+  border-left: 1px solid #1a1a1a;
+}
+
+.scrollbar-dark::-webkit-scrollbar-thumb {
+  background: #3b82f6;
+  border: 3px solid #000000;
+}
+
+.scrollbar-dark::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
+}
