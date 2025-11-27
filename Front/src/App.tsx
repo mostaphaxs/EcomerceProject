@@ -12,6 +12,7 @@ import HomePage from './HomePage/HomePage';
 import Admin from './Admin/Admin';
 import Cart from './Product/Cart';
 import './i18n';
+import "./App.css"
 import ChatBot from './AiThings/ChatBot';
 import { initializeLanguage } from './utils/languageInit';
 import WishList from './WishList/WishList';
@@ -31,7 +32,7 @@ function App() {
 
   return (
     
-      <div> 
+      <div className='App'> 
 
       <Pannel />
       <AuthChecker />
