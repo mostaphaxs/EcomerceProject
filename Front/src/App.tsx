@@ -52,6 +52,7 @@ function App() {
           <Route path='/ChatBot' element={<ChatBot/>} />
           <Route path='/test' element={<TestUno/>} />
           <Route path='/Home' element={<HomePage />} />
+          <Route path='/' element={<HomePage />} />
           <Route path='/WishList' element={<WishList />} />
           <Route path='/Admin' element={<Admin />} />
           <Route path='/Cart' element={<Cart />} />
