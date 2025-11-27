@@ -1,0 +1,23 @@
+{
+    "dbcode.connections": [
+        {
+            "connectionId": "7DRsDR-eD0-iAE9qF4EXU",
+            "name": "mysql",
+            "driver": "mysql",
+            "connectionType": "host",
+            "host": "127.0.0.1",
+            "port": 3308,
+            "ssl": false,
+            "username": "root",
+            "password": "",
+            "savePassword": "secretStorage",
+            "database": "ecommerce",
+            "readOnly": false,
+            "role": "development",
+            "connectionTimeout": 30,
+            "driverOptions": {
+                "retrievePublickey": true
+            }
+        }
+    ]
+}
